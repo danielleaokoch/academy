@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-03T02:06:39.513234+00:00",
+  "method": "official_youtube_channel_atom_feeds",
+  "coverage": "only_recent_uploads; no comprehensive search; metadata only",
+  "readyForPaidUse": false,
+  "sources": [],
+  "errors": [
+    {
+      "provider": "CS50 (Harvard)",
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+    },
+    {
+      "provider": "freeCodeCamp.org",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "provider": "UNIVESP TV",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
+  "items": []
+}
