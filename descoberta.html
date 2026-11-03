@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eleva Academy | Descoberta inteligente</title>
+<style>
+:root{font-family:system-ui,-apple-system,sans-serif;color:#173640;background:#f1f7f5}*{box-sizing:border-box}body{margin:0}
+header{background:#10343d;color:white;padding:18px max(18px,calc((100% - 1100px)/2));font-weight:750;font-size:23px}header b{color:#5edfc1}
+main{max-width:1100px;margin:auto;padding:18px}h1{font-size:28px;margin:8px 0}h2{font-size:20px;margin:4px 0 14px}.muted{color:#59747a;font-size:13px;line-height:1.5}.tag{font-size:11px;letter-spacing:.4px;color:#007c70;font-weight:800}
+.grid{display:grid;grid-template-columns:minmax(240px,300px) minmax(0,1fr);gap:15px}.panel{background:#fff;border:1px solid #d6e6e1;border-radius:13px;padding:17px;margin-bottom:14px}
+select,input,button{font:inherit}select{width:100%;padding:11px;border:1px solid #d0dedb;background:white;border-radius:8px}
+button{background:white;border:1px solid #c5d8d4;border-radius:8px;padding:9px 11px;cursor:pointer;color:#173640;font-size:13px;font-weight:650}button.primary{background:#0a8074;color:white;border-color:#0a8074}
+button:focus-visible,select:focus-visible{outline:3px solid #59c3b3;outline-offset:2px}.skill{margin:12px 0}.skill label{display:flex;justify-content:space-between;font-size:12px;font-weight:650}.skill input{width:100%;accent-color:#0a8074}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{border:1px solid #d9e6e2;border-radius:10px;padding:13px;display:flex;flex-direction:column;gap:8px;min-width:0}.card strong{font-size:14px;line-height:1.35;overflow-wrap:anywhere}
+.card .meta{font-size:11px;color:#466e6d}.pills{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.pill{background:#e6f3ef;border-radius:20px;padding:5px 9px;font-size:11px}
+.player{aspect-ratio:16/9;background:#092932;border-radius:10px;overflow:hidden;margin:12px 0}.player iframe{width:100%;height:100%;border:0}
+.stats{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}.stat{background:#e7f4ef;padding:10px;border-radius:8px;font-size:12px}
+a{color:#087e73}#room[hidden]{display:none}#status{border-left:3px solid #0a8074;padding:9px 12px;background:#edf7f3;margin:9px 0;font-size:12px;line-height:1.5}
+footer{max-width:1100px;margin:auto;padding:10px 18px 30px;color:#677c80;font-size:11px;line-height:1.5}
+@media(max-width:720px){.grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}h1{font-size:23px}}
+</style></head><body>
+<header>eleva<b>.</b> academy <span style="font-size:12px;color:#a8cfca"> / Discovery Lab</span></header>
+<main>
+<div class="tag">MOTOR DE DESCOBERTA V1 · EXPERIMENTAL</div>
+<h1>Aprenda o que aproxima você do próximo cargo</h1>
+<p class="muted">Escolha seu objetivo e ajuste suas competências. A Eleva pontua candidatos publicados por canais educacionais, seleciona aulas e mostra o conteúdo no player oficial. O motor NÃO certifica disponibilidade, licenças ou qualidade pedagógica sem revisão.</p>
+<div class="grid">
+<aside>
+<section class="panel"><h2>Seu objetivo</h2><label for="role" class="tag">Cargo desejado</label>
+<select id="role"><option value="commercial_director">Diretor(a) Comercial</option><option value="sales_manager">Gerente Comercial</option><option value="marketing_director">Diretor(a) de Marketing</option><option value="data_analyst">Analista de Dados</option><option value="tech_manager">Gestor(a) de Tecnologia</option></select>
+<p class="muted">Quanto você domina cada competência hoje? (0 a 5)</p><div id="skills"></div>
+<button id="generate" class="primary" style="width:100%">Gerar minha trilha</button>
+</section>
+<section class="panel"><h2>Fontes conectadas</h2><div id="sources" class="muted">Consultando catálogo...</div><p class="muted">Descoberta via RSS oficial de canais, sem chave de API. Os vídeos continuam hospedados nos respectivos provedores.</p></section>
+<section class="panel"><h2>Transparência</h2><p class="muted">A pontuação é uma heurística por título, palavras-chave e gap, não uma avaliação profunda do vídeo. Nenhum conteúdo é copiado; a incorporação e os direitos precisam de validação antes da comercialização.</p><a href="index.html">Voltar ao MVP original com 5 trilhas fixas</a></section>
+</aside>
+<div>
+<section class="panel"><div class="tag">SELEÇÃO ADAPTADA AO SEU PERFIL</div><h2 id="heading">Sua trilha sugerida</h2><div id="status" role="status">Carregando catálogo público...</div><div class="pills" id="gaps"></div><div class="stats"><span class="stat" id="total">0 candidatos</span><span class="stat" id="updated">Data não disponível</span></div><div class="cards" id="cards"></div></section>
+<section id="room" class="panel" hidden><div class="tag">SALA DE AULA ELEVA · PLAYER EXTERNO</div><h2 id="lesson"></h2><div class="muted" id="provider"></div><div id="player" class="player"></div><p class="muted">O player pode ser bloqueado pelo provedor, pela rede ou pelo navegador. Abrir o player não confirma reprodução, licença ou conclusão.</p>
+<div class="pills"><button id="complete" class="primary">Marcar estudo realizado</button><button id="close">Fechar aula</button><a id="original" target="_blank" rel="noopener noreferrer">Fonte original</a></div>
+<div id="doneStatus" class="muted"></div></section>
+</div></div></main>
+<footer>Laboratório de descoberta; sem associação ou parceria com provedores. Metadados públicos não substituem autorização de uso comercial. Sem conexão com a Eleva original ou Lovable. Vídeos públicos incorporados não podem ser transformados em acesso pago ao player.</footer>
+<script>
+(()=>{
+const $=id=>document.getElementById(id);
+const labels={lideranca:'Liderança',estrategia:'Estratégia',financas:'Finanças',dados:'Dados',ia:'Inteligência artificial',programacao:'Programação',marketing:'Marketing'};
+const targets={
+commercial_director:{name:'Diretor(a) Comercial',weights:{lideranca:5,estrategia:5,financas:4,dados:3,ia:2}},
+sales_manager:{name:'Gerente Comercial',weights:{lideranca:4,estrategia:4,financas:3,dados:2,marketing:2}},
+marketing_director:{name:'Diretor(a) de Marketing',weights:{lideranca:4,estrategia:5,marketing:5,dados:4,ia:4}},
+data_analyst:{name:'Analista de Dados',weights:{dados:5,programacao:4,ia:3,estrategia:2}},
+tech_manager:{name:'Gestor(a) de Tecnologia',weights:{lideranca:4,programacao:4,ia:5,dados:4,estrategia:4}}
+};
+const FALLBACK=[
+{id:'yt:xAcTmDO6NTI',videoId:'xAcTmDO6NTI',title:'Introdução à computação e Python',provider:'MIT OpenCourseWare',sourceUrl:'https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/',skills:['programacao','dados'],score:25,verification:'manual_seed_requires_verification'},
+{id:'yt:r-uOLxNrNk8',videoId:'r-uOLxNrNk8',title:'Análise de dados com Python',provider:'freeCodeCamp.org',sourceUrl:'https://www.youtube.com/watch?v=r-uOLxNrNk8',skills:['dados','programacao'],score:25,verification:'manual_seed_requires_verification'},
+{id:'yt:k7HaeJs-N-o',videoId:'k7HaeJs-N-o',title:'Generative AI for Beginners',provider:'Microsoft Developer',sourceUrl:'https://www.youtube.com/watch?v=k7HaeJs-N-o',skills:['ia','programacao'],score:25,verification:'manual_seed_requires_verification'},
+{id:'yt:0EySnmt_d_0',videoId:'0EySnmt_d_0',title:'Introdução à estatística',provider:'UNIVESP',sourceUrl:'https://www.youtube.com/watch?v=0EySnmt_d_0',skills:['dados'],score:20,verification:'manual_seed_requires_verification'},
+{id:'yt:IDwB4pBDB-A',videoId:'IDwB4pBDB-A',title:'Planejamento estratégico',provider:'UNIVESP',sourceUrl:'https://www.youtube.com/watch?v=IDwB4pBDB-A',skills:['estrategia','lideranca'],score:22,verification:'manual_seed_requires_verification'},
+{id:'yt:ID45S6So2wc',videoId:'ID45S6So2wc',title:'Como fazer fluxo de caixa',provider:'Sebrae',sourceUrl:'https://www.youtube.com/watch?v=ID45S6So2wc',skills:['financas'],score:20,verification:'manual_seed_requires_verification'}
+];
+let state;try{state=JSON.parse(localStorage.getItem('eleva-discovery-settings-v1'))||{}}catch{state={}}state.levels=Object.assign({lideranca:1,estrategia:1,financas:1,dados:1,ia:1,programacao:1,marketing:1},state.levels||{});
+let items=FALLBACK, current=null, mode='Catálogo de referência (offline)',generatedAt='',sourceStatus=[];
+let done=new Set();try{done=new Set(JSON.parse(localStorage.getItem('eleva-discovery-completed-v1'))||[])}catch{}
+function save(){localStorage.setItem('eleva-discovery-settings-v1',JSON.stringify(state))}
+function elem(tag,txt,cls){let e=document.createElement(tag);if(txt!==undefined)e.textContent=txt;if(cls)e.className=cls;return e}
+Object.entries(labels).forEach(([key,name])=>{let c=elem('div',undefined,'skill'),label=elem('label',name),v=elem('b',state.levels[key]+'/5'),inp=elem('input');inp.type='range';inp.min=0;inp.max=5;inp.value=state.levels[key];inp.setAttribute('aria-label','Domínio em '+name);inp.addEventListener('input',()=>{state.levels[key]=Number(inp.value);v.textContent=inp.value+'/5';save()});label.append(v);c.append(label,inp);$('skills').append(c)});
+function render(){let t=targets[$('role').value];$('heading').textContent='Para '+t.name;
+let gaps=Object.entries(t.weights).map(([skill,target])=>({skill,gap:Math.max(0,target-(state.levels[skill]||0))})).sort((a,b)=>b.gap-a.gap);
+$('gaps').replaceChildren();gaps.slice(0,4).forEach(g=>$('gaps').append(elem('span',labels[g.skill]+': gap '+g.gap,'pill')));
+let ranked=items.map(c=>{let gapsum=(c.skills||[]).reduce((s,k)=>s+(gaps.find(g=>g.skill===k)?.gap||0)*23,0);return {...c,rank:gapsum+(Number(c.score)||0)*.3}}).filter(c=>c.rank>0).sort((a,b)=>b.rank-a.rank).slice(0,10);
+$('total').textContent=items.length+' candidatos no catálogo';$('updated').textContent=generatedAt?'Atualizado '+new Date(generatedAt).toLocaleDateString('pt-BR'): 'Base de referência';
+$('status').textContent=mode+' · '+ranked.length+' recomendações nesta trilha. Resultados são candidatos por título e competências, não cursos completos certificados.';
+$('sources').textContent=sourceStatus.length?sourceStatus.map(x=>x.provider+': '+x.items+' vídeos classificados').join(' · '):'MIT, UNIVESP, Sebrae, Microsoft e freeCodeCamp (base inicial).';
+$('cards').replaceChildren();ranked.forEach((c,i)=>{let card=elem('div',undefined,'card');card.append(elem('div',(i+1)+'. '+c.provider,'tag'),elem('strong',c.title),elem('div',(c.skills||[]).map(k=>labels[k]||k).join(' · '),'meta'));
+let info=elem('div','Afinidade: '+Math.round(c.rank)+' pts · '+(c.verification==='manual_seed_requires_verification'?'Referência manual':'Descoberta automática: sem validação de direitos/player'),'meta');card.append(info);
+let btn=elem('button','▶ Testar player incorporado','primary');btn.onclick=()=>open(c);card.append(btn);$('cards').append(card)});
+if(!ranked.length)$('cards').append(elem('p','Nenhuma aula adequada foi encontrada. Ajuste a competência ou atualize as fontes.','muted'));
+}
+function open(c){current=c;$('room').hidden=false;$('lesson').textContent=c.title;$('provider').textContent='Fonte: '+c.provider+' · metadados: '+c.verification;let iframe=elem('iframe');iframe.title=c.title;iframe.loading='lazy';iframe.allow='accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen';iframe.allowFullscreen=true;iframe.referrerPolicy='strict-origin-when-cross-origin';iframe.src='https://www.youtube-nocookie.com/embed/'+encodeURIComponent(c.videoId)+'?rel=0';$('player').replaceChildren(iframe);$('original').href=c.sourceUrl;$('complete').textContent=done.has(c.id)?'✓ Registrado · desmarcar':'Marcar estudo realizado';$('doneStatus').textContent=done.has(c.id)?'Marcado como estudado manualmente.':'Sem progresso integrado à plataforma de origem.';$('room').scrollIntoView({behavior:'smooth',block:'start'})}
+$('complete').onclick=()=>{if(!current)return;if(done.has(current.id))done.delete(current.id);else done.add(current.id);localStorage.setItem('eleva-discovery-completed-v1',JSON.stringify([...done]));open(current)};
+$('close').onclick=()=>{$('room').hidden=true;$('player').replaceChildren()};$('role').onchange=()=>{save();render()};$('generate').onclick=()=>{save();render()};render();
+const remote='https://raw.githubusercontent.com/danielleaokoch/academy/main/data/discovered.json?nocache='+Date.now();
+fetch(remote,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
+if(!Array.isArray(data.items))throw Error('formato inválido');
+generatedAt=data.generatedAt||'';sourceStatus=Array.isArray(data.sources)?data.sources:[];items=[...data.items,...FALLBACK.filter(f=>!data.items.some(x=>x.id===f.id))];mode='Descoberta automática via feeds oficiais + base de referência';render()
+}).catch(e=>{mode='Catálogo inicial (atualização automática indisponível: '+String(e.message).slice(0,90)+')';render()});
+})();
+</script></body></html>
