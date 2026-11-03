@@ -77,6 +77,44 @@ def get_feed(provider, channel_id, language):
         })
     return found
 
+
+def get_microsoft_learn():
+    """Catálogo oficial público: metadados somente, sem direito de incorporar aulas."""
+    url = "https://learn.microsoft.com/api/catalog/?locale=pt-br&type=modules,learningPaths"
+    req = urllib.request.Request(url, headers={"User-Agent": "ElevaAcademyLab/1.0"})
+    with urllib.request.urlopen(req, timeout=35) as resp:
+        # Resposta pode ser extensa. Limitamos a memória e o corpo.
+        raw = resp.read(35000000)
+        if resp.read(1):
+            raise ValueError("Catálogo maior que o limite de segurança")
+    catalog = json.loads(raw.decode("utf-8"))
+    found = []
+    for row in (catalog.get("modules") or []) + (catalog.get("learningPaths") or []):
+        uid = str(row.get("uid", ""))
+        title = str(row.get("title", "")).strip()
+        link = str(row.get("url", ""))
+        if not uid or not title or not link.startswith("https://learn.microsoft.com/"):
+            continue
+        relevance, skills = score(title, re.sub("<[^>]+>", " ", str(row.get("summary", ""))))
+        if relevance < 25 or not skills:
+            continue
+        found.append({
+            "id": "mslearn:" + uid,
+            "title": title[:160],
+            "provider": "Microsoft Learn",
+            "sourceType": "microsoft_learn_catalog_api",
+            "sourceUrl": link,
+            "embedUrl": None,
+            "playback": "external_only_no_embeddable_player_verified",
+            "languageHint": str(row.get("locale") or "pt-br"),
+            "published": str(row.get("last_modified") or ""),
+            "durationMinutes": row.get("duration_in_minutes"),
+            "skills": skills,
+            "score": relevance + min(float(row.get("popularity") or 0), 1) * 15,
+            "verification": "official_catalog_metadata_not_licensed_for_embedding",
+        })
+    return sorted(found, key=lambda x: -x["score"])[:120]
+
 def run():
     old = {}
     if OUT.exists():
@@ -96,16 +134,25 @@ def run():
         except Exception as e:
             errors.append({"provider": name, "error": type(e).__name__ + ": " + str(e)[:150]})
             print("Aviso:", name, errors[-1]["error"], file=sys.stderr)
+    try:
+        learn = get_microsoft_learn()
+        successes.append({"provider": "Microsoft Learn", "items": len(learn), "playback": "external_only"})
+        for row in learn:
+            discovered[row["id"]] = row
+    except Exception as e:
+        errors.append({"provider": "Microsoft Learn", "error": type(e).__name__ + ": " + str(e)[:150]})
+        print("Aviso:", "Microsoft Learn", errors[-1]["error"], file=sys.stderr)
+
     # Nunca zerar um catálogo anterior quando todas as fontes estiverem indisponíveis.
     if not successes and old.get("items"):
         print("Fontes indisponíveis; mantendo catálogo anterior")
         return
-    items = sorted(discovered.values(), key=lambda x: (-x["score"], x["title"]))[:60]
+    items = sorted(discovered.values(), key=lambda x: (-x["score"], x["title"]))[:150]
     payload = {
         "version": 1,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "method": "official_youtube_channel_atom_feeds",
-        "coverage": "only_recent_uploads; no comprehensive search; metadata only",
+        "method": "official_youtube_channel_atom_feeds_and_microsoft_learn_catalog_api",
+        "coverage": "YouTube recent uploads when accessible; Microsoft Learn modules and learning paths; metadata only",
         "readyForPaidUse": False,
         "sources": successes,
         "errors": errors,
