@@ -1,0 +1,37 @@
+name: Atualizar catálogo inteligente Academy
+on:
+  push:
+    paths:
+      - scripts/discover.py
+      - .github/workflows/discovery.yml
+  schedule:
+    - cron: '17 10 * * 2,5'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Buscar metadados de fontes públicas
+        run: python scripts/discover.py
+      - name: Publicar catálogo de candidatos, quando atualizado
+        run: |
+          if [ ! -e data/discovered.json ]; then
+            echo "Catálogo ausente; não publicar."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/discovered.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizar candidatos públicos de aprendizagem"
+            git push
+          fi
