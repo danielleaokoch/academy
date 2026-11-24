@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T18:35:58.034105+00:00",
+  "generatedAt": "2026-11-24T20:38:51.931377+00:00",
   "method": "official_youtube_channel_atom_feeds_and_microsoft_learn_catalog_api",
   "coverage": "YouTube recent uploads when accessible; Microsoft Learn modules and learning paths; metadata only",
   "readyForPaidUse": false,
@@ -40,7 +40,7 @@
         "financas",
         "dados"
       ],
-      "score": 76.13092927411795,
+      "score": 76.14174365028276,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -58,7 +58,7 @@
         "dados",
         "programacao"
       ],
-      "score": 65.16823293019209,
+      "score": 65.22349422228544,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -76,7 +76,7 @@
         "estrategia",
         "financas"
       ],
-      "score": 65.03223705332508,
+      "score": 65.02913385149428,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -95,7 +95,7 @@
         "dados",
         "ia"
       ],
-      "score": 64.66246174873712,
+      "score": 64.64445604307656,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -114,7 +114,7 @@
         "dados",
         "programacao"
       ],
-      "score": 62.38604889881841,
+      "score": 62.32183744247044,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -133,7 +133,7 @@
         "financas",
         "dados"
       ],
-      "score": 62.0057874898566,
+      "score": 62.25805985911097,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -151,7 +151,7 @@
         "financas",
         "dados"
       ],
-      "score": 61.56491223237203,
+      "score": 61.65401139122224,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -168,7 +168,7 @@
       "skills": [
         "dados"
       ],
-      "score": 55.45945030659594,
+      "score": 55.42902690493674,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -185,7 +185,7 @@
       "skills": [
         "dados"
       ],
-      "score": 55.06593033897302,
+      "score": 55.07900190578275,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -203,7 +203,7 @@
         "dados",
         "programacao"
       ],
-      "score": 53.969124137903435,
+      "score": 53.81590844689286,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -220,7 +220,7 @@
       "skills": [
         "dados"
       ],
-      "score": 53.14048870353713,
+      "score": 53.166914597698224,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -239,43 +239,7 @@
         "dados",
         "programacao"
       ],
-      "score": 52.850365740202285,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.implement-data-science-machine-learning-fabric",
-      "title": "Implementar uma solução de ciência de dados e aprendizado de máquina para IA no Microsoft Fabric",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/implement-data-science-machine-learning-fabric/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-11-04T16:45:00+00:00",
-      "durationMinutes": 329,
-      "skills": [
-        "dados",
-        "ia"
-      ],
-      "score": 51.95801165528693,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.explore-reporting-tools-dynamics-365-finance-operations",
-      "title": "Explorar as ferramentas de relatórios nos aplicativos de finanças e operações",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/explore-reporting-tools-finance-operations/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T20:57:00+00:00",
-      "durationMinutes": 69,
-      "skills": [
-        "financas",
-        "dados"
-      ],
-      "score": 51.948194387833695,
+      "score": 52.68546697729171,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -293,7 +257,43 @@
         "financas",
         "dados"
       ],
-      "score": 51.93305793027283,
+      "score": 51.932893419321594,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.implement-data-science-machine-learning-fabric",
+      "title": "Implementar uma solução de ciência de dados e aprendizado de máquina para IA no Microsoft Fabric",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/implement-data-science-machine-learning-fabric/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-04T16:45:00+00:00",
+      "durationMinutes": 329,
+      "skills": [
+        "dados",
+        "ia"
+      ],
+      "score": 51.93285921591671,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.explore-reporting-tools-dynamics-365-finance-operations",
+      "title": "Explorar as ferramentas de relatórios nos aplicativos de finanças e operações",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/explore-reporting-tools-finance-operations/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-27T20:57:00+00:00",
+      "durationMinutes": 69,
+      "skills": [
+        "financas",
+        "dados"
+      ],
+      "score": 51.799486832617724,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -310,7 +310,7 @@
       "skills": [
         "ia"
       ],
-      "score": 51.831820838506836,
+      "score": 51.71229783272063,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -328,7 +328,25 @@
         "estrategia",
         "financas"
       ],
-      "score": 51.53424684407953,
+      "score": 51.476234316382204,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.configure-powerbi-excel-dynamics-365-business-central",
+      "title": "Configurar o Business Central para Excel e Power BI",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/configure-powerbi-excel-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-23T12:50:00+00:00",
+      "durationMinutes": 68,
+      "skills": [
+        "estrategia",
+        "dados"
+      ],
+      "score": 51.10912999625274,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -346,25 +364,7 @@
         "estrategia",
         "financas"
       ],
-      "score": 51.14332145816729,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.configure-powerbi-excel-dynamics-365-business-central",
-      "title": "Configurar o Business Central para Excel e Power BI",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/configure-powerbi-excel-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-11-18T18:24:00+00:00",
-      "durationMinutes": 68,
-      "skills": [
-        "estrategia",
-        "dados"
-      ],
-      "score": 51.1231766564547,
+      "score": 51.107272485391164,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -381,7 +381,7 @@
       "skills": [
         "programacao"
       ],
-      "score": 50.89563231398603,
+      "score": 51.02582240933173,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -400,7 +400,7 @@
         "financas",
         "dados"
       ],
-      "score": 50.825041046945415,
+      "score": 50.93204185516524,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -419,7 +419,7 @@
         "financas",
         "dados"
       ],
-      "score": 50.79622247030876,
+      "score": 50.77114397524095,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -437,7 +437,7 @@
         "estrategia",
         "ia"
       ],
-      "score": 50.49904925278732,
+      "score": 50.54063953547445,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -455,7 +455,24 @@
         "financas",
         "dados"
       ],
-      "score": 50.40780024218158,
+      "score": 50.488596910004304,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.mec.build-programs-use-python-coding-minecraft-azure-notebooks",
+      "title": "Build programs using Python coding in Minecraft",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "en-us",
+      "published": "2026-10-22T23:06:00+00:00",
+      "durationMinutes": 43,
+      "skills": [
+        "programacao"
+      ],
+      "score": 50.2487646292103,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -473,7 +490,7 @@
         "estrategia",
         "financas"
       ],
-      "score": 50.38355262539497,
+      "score": 50.23824225446523,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -491,7 +508,7 @@
         "financas",
         "dados"
       ],
-      "score": 50.271197049510675,
+      "score": 50.232094166889084,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -510,42 +527,7 @@
         "financas",
         "dados"
       ],
-      "score": 50.20364448575482,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.mec.build-programs-use-python-coding-minecraft-azure-notebooks",
-      "title": "Build programs using Python coding in Minecraft",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "en-us",
-      "published": "2026-10-22T23:06:00+00:00",
-      "durationMinutes": 43,
-      "skills": [
-        "programacao"
-      ],
-      "score": 50.01592132936311,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.configure-use-budgeting-d365-finance-ops",
-      "title": "Configurar e usar o orçamento no Dynamics 365 Finance",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/configure-use-budgeting-dyn365-finance/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-29T16:41:00+00:00",
-      "durationMinutes": 183,
-      "skills": [
-        "estrategia",
-        "financas"
-      ],
-      "score": 49.90649117534485,
+      "score": 50.06977553530694,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -562,25 +544,7 @@
       "skills": [
         "financas"
       ],
-      "score": 49.79742947564292,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.create-financial-reports-dynamics-365-business-central",
-      "title": "Criar relatórios financeiros no Microsoft Dynamics 365 Business Central",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/create-financial-reports-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-29T16:41:00+00:00",
-      "durationMinutes": 178,
-      "skills": [
-        "estrategia",
-        "financas"
-      ],
-      "score": 49.70354299782143,
+      "score": 49.95901606080474,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -598,7 +562,43 @@
         "estrategia",
         "financas"
       ],
-      "score": 49.70095110495797,
+      "score": 49.81151896158949,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.configure-use-budgeting-d365-finance-ops",
+      "title": "Configurar e usar o orçamento no Dynamics 365 Finance",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/configure-use-budgeting-dyn365-finance/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-29T16:41:00+00:00",
+      "durationMinutes": 183,
+      "skills": [
+        "estrategia",
+        "financas"
+      ],
+      "score": 49.76232857710197,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.create-financial-reports-dynamics-365-business-central",
+      "title": "Criar relatórios financeiros no Microsoft Dynamics 365 Business Central",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/create-financial-reports-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-29T16:41:00+00:00",
+      "durationMinutes": 178,
+      "skills": [
+        "estrategia",
+        "financas"
+      ],
+      "score": 49.70166328330054,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -616,7 +616,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 49.56510064481072,
+      "score": 49.66197267048613,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -635,7 +635,7 @@
         "financas",
         "dados"
       ],
-      "score": 49.523119987893985,
+      "score": 49.64906957498627,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -653,24 +653,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 49.33991495364401,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.get-started-with-python-programs",
-      "title": "Introdução à programação Python: Parte 2 – criação de programas",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/get-started-with-python-programs/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-28T03:52:00+00:00",
-      "durationMinutes": 210,
-      "skills": [
-        "programacao"
-      ],
-      "score": 49.21940143703816,
+      "score": 49.46097354151372,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -688,7 +671,41 @@
         "estrategia",
         "dados"
       ],
-      "score": 49.122693317511555,
+      "score": 49.17555180894322,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.get-started-with-python-programs",
+      "title": "Introdução à programação Python: Parte 2 – criação de programas",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/get-started-with-python-programs/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-28T03:52:00+00:00",
+      "durationMinutes": 210,
+      "skills": [
+        "programacao"
+      ],
+      "score": 49.16074361593664,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.get-started-with-dynamics-365-for-finance-and-operations",
+      "title": "Introdução aos aplicativos de finanças e operações",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/get-started-finance-operations/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-29T16:42:00+00:00",
+      "durationMinutes": 667,
+      "skills": [
+        "financas"
+      ],
+      "score": 48.15174677133568,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -706,24 +723,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 48.23762229832168,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.get-started-with-dynamics-365-for-finance-and-operations",
-      "title": "Introdução aos aplicativos de finanças e operações",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/get-started-finance-operations/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-29T16:42:00+00:00",
-      "durationMinutes": 667,
-      "skills": [
-        "financas"
-      ],
-      "score": 48.10880121489096,
+      "score": 48.113486460315436,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -740,7 +740,7 @@
       "skills": [
         "dados"
       ],
-      "score": 47.7972525344138,
+      "score": 47.83379430627173,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -757,7 +757,24 @@
       "skills": [
         "estrategia"
       ],
-      "score": 47.686889880548584,
+      "score": 47.564421819789075,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.introduction-finance-dynamics-365",
+      "title": "Introdução às finanças no Dynamics 365",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/introduction-finance-dynamics-365/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-22T16:36:00+00:00",
+      "durationMinutes": 796,
+      "skills": [
+        "financas"
+      ],
+      "score": 47.455510663942164,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -774,24 +791,7 @@
       "skills": [
         "financas"
       ],
-      "score": 47.31079265128281,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.introduction-finance-dynamics-365",
-      "title": "Introdução às finanças no Dynamics 365",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/introduction-finance-dynamics-365/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-29T16:42:00+00:00",
-      "durationMinutes": 796,
-      "skills": [
-        "financas"
-      ],
-      "score": 47.267150272069266,
+      "score": 47.181294216449295,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -809,7 +809,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 46.6661004938965,
+      "score": 46.46131177223607,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -827,7 +827,7 @@
         "financas",
         "dados"
       ],
-      "score": 46.087064776945375,
+      "score": 46.03995778815386,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -844,7 +844,7 @@
       "skills": [
         "financas"
       ],
-      "score": 45.64235277722553,
+      "score": 45.749458509254694,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -861,7 +861,7 @@
       "skills": [
         "financas"
       ],
-      "score": 45.47293835514318,
+      "score": 45.65865477528962,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -878,7 +878,7 @@
       "skills": [
         "dados"
       ],
-      "score": 42.8862628318157,
+      "score": 42.875170883952265,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -896,7 +896,7 @@
         "dados",
         "programacao"
       ],
-      "score": 42.68589882356582,
+      "score": 42.62682055995596,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -949,23 +949,6 @@
       "verification": "candidate_unverified_embed_and_licensing"
     },
     {
-      "id": "mslearn:learn.wwl.empower-workforce-copilot-finance",
-      "title": "Capacite sua força de trabalho com o Microsoft Copilot: Finanças",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/empower-workforce-copilot-finance/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-26T17:37:00+00:00",
-      "durationMinutes": 273,
-      "skills": [
-        "financas"
-      ],
-      "score": 41.74112612410791,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
       "id": "mslearn:learn-bizapps.power-bi-copilot",
       "title": "Criar relatórios interativos usando o Copilot para Power BI",
       "provider": "Microsoft Learn",
@@ -979,7 +962,24 @@
       "skills": [
         "dados"
       ],
-      "score": 41.655583119210846,
+      "score": 41.63624490132278,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.empower-workforce-copilot-finance",
+      "title": "Capacite sua força de trabalho com o Microsoft Copilot: Finanças",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/empower-workforce-copilot-finance/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-26T17:37:00+00:00",
+      "durationMinutes": 273,
+      "skills": [
+        "financas"
+      ],
+      "score": 41.574391116908174,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -996,7 +996,7 @@
       "skills": [
         "dados"
       ],
-      "score": 41.45258183195882,
+      "score": 41.22199320204899,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1014,7 +1014,7 @@
         "financas",
         "marketing"
       ],
-      "score": 41.30219903516053,
+      "score": 41.183861366414305,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1031,7 +1031,7 @@
       "skills": [
         "dados"
       ],
-      "score": 41.01139759576748,
+      "score": 40.94632066452312,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1048,7 +1048,7 @@
       "skills": [
         "dados"
       ],
-      "score": 40.83224792585871,
+      "score": 40.81287406412274,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1065,7 +1065,7 @@
       "skills": [
         "dados"
       ],
-      "score": 40.792565196406784,
+      "score": 40.761742855623474,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1082,7 +1082,7 @@
       "skills": [
         "dados"
       ],
-      "score": 40.56932825961812,
+      "score": 40.602705603360846,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1099,7 +1099,7 @@
       "skills": [
         "dados"
       ],
-      "score": 40.54084875120171,
+      "score": 40.48286058972371,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1116,7 +1116,7 @@
       "skills": [
         "dados"
       ],
-      "score": 40.29387301975993,
+      "score": 40.269277815304505,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1133,24 +1133,7 @@
       "skills": [
         "estrategia"
       ],
-      "score": 40.26197915815202,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-bizapps.dax-power-bi-time-intelligence",
-      "title": "Usar funções de inteligência de dados temporais DAX em modelos semânticos",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/dax-power-bi-time-intelligence/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T21:28:00+00:00",
-      "durationMinutes": 34,
-      "skills": [
-        "dados"
-      ],
-      "score": 40.19462305788623,
+      "score": 40.22853504375708,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1167,24 +1150,24 @@
       "skills": [
         "dados"
       ],
-      "score": 40.189282731489826,
+      "score": 40.16548596124855,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn.philanthropies.get-started-with-copilot",
-      "title": "Introdução ao Microsoft Copilot",
+      "id": "mslearn:learn-bizapps.dax-power-bi-time-intelligence",
+      "title": "Usar funções de inteligência de dados temporais DAX em modelos semânticos",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/get-started-with-copilot/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/dax-power-bi-time-intelligence/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-10-29T01:45:00+00:00",
-      "durationMinutes": 31,
+      "published": "2026-10-27T21:28:00+00:00",
+      "durationMinutes": 34,
       "skills": [
-        "estrategia"
+        "dados"
       ],
-      "score": 40.12717900769029,
+      "score": 40.14616868638001,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1201,7 +1184,24 @@
       "skills": [
         "dados"
       ],
-      "score": 40.10810558448391,
+      "score": 40.088819789063194,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.philanthropies.get-started-with-copilot",
+      "title": "Introdução ao Microsoft Copilot",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/get-started-with-copilot/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-29T01:45:00+00:00",
+      "durationMinutes": 31,
+      "skills": [
+        "estrategia"
+      ],
+      "score": 40.02685309805727,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1218,7 +1218,7 @@
       "skills": [
         "dados"
       ],
-      "score": 40.09063021402636,
+      "score": 40.02075244124201,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1235,7 +1235,7 @@
       "skills": [
         "dados"
       ],
-      "score": 39.84157628487186,
+      "score": 39.786328653326535,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1252,7 +1252,7 @@
       "skills": [
         "dados"
       ],
-      "score": 39.707289895046216,
+      "score": 39.71705684213374,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1269,24 +1269,7 @@
       "skills": [
         "dados"
       ],
-      "score": 39.67419086672706,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-bizapps.data-visualization-reports-power-bi",
-      "title": "Visualização de dados e relatórios no Power BI: workshop online",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/data-visualization-reports-power-bi/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T21:33:00+00:00",
-      "durationMinutes": 23,
-      "skills": [
-        "dados"
-      ],
-      "score": 39.60444470370409,
+      "score": 39.69158031425691,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1303,24 +1286,24 @@
       "skills": [
         "dados"
       ],
-      "score": 39.58592683639994,
+      "score": 39.59714470875888,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn.wwl.get-started-ai-fundamentals",
-      "title": "Introdução aos conceitos de IA",
+      "id": "mslearn:learn-bizapps.data-visualization-reports-power-bi",
+      "title": "Visualização de dados e relatórios no Power BI: workshop online",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/data-visualization-reports-power-bi/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-10-28T23:27:00+00:00",
-      "durationMinutes": 40,
+      "published": "2026-10-27T21:33:00+00:00",
+      "durationMinutes": 23,
       "skills": [
-        "ia"
+        "dados"
       ],
-      "score": 39.5614920785965,
+      "score": 39.562247843604496,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1337,7 +1320,24 @@
       "skills": [
         "dados"
       ],
-      "score": 39.4942926048313,
+      "score": 39.535898991482426,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.get-started-ai-fundamentals",
+      "title": "Introdução aos conceitos de IA",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-28T23:27:00+00:00",
+      "durationMinutes": 40,
+      "skills": [
+        "ia"
+      ],
+      "score": 39.52463724232198,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1354,7 +1354,7 @@
       "skills": [
         "estrategia"
       ],
-      "score": 39.48784462896901,
+      "score": 39.47424342055209,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1371,7 +1371,7 @@
       "skills": [
         "dados"
       ],
-      "score": 39.230223566117736,
+      "score": 39.255615321713414,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1389,24 +1389,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 39.21200238595432,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-bizapps.use-hierarchies-dax-first-data-model",
-      "title": "Usar hierarquias e DAX em seu primeiro modelo de dados: workshop online",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/use-hierarchies-dax-first-data-model/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T21:40:00+00:00",
-      "durationMinutes": 60,
-      "skills": [
-        "dados"
-      ],
-      "score": 39.15973372510404,
+      "score": 39.17484496851076,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1424,7 +1407,24 @@
         "dados",
         "programacao"
       ],
-      "score": 39.05961246249501,
+      "score": 39.07395174939883,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-bizapps.use-hierarchies-dax-first-data-model",
+      "title": "Usar hierarquias e DAX em seu primeiro modelo de dados: workshop online",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/use-hierarchies-dax-first-data-model/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-27T21:40:00+00:00",
+      "durationMinutes": 60,
+      "skills": [
+        "dados"
+      ],
+      "score": 39.052704258241135,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1442,7 +1442,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 38.90613425859314,
+      "score": 38.885912991901186,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1459,7 +1459,7 @@
       "skills": [
         "dados"
       ],
-      "score": 38.88988204855438,
+      "score": 38.854294218203016,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1471,46 +1471,12 @@
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-11-11T15:50:00+00:00",
+      "published": "2026-11-21T03:34:00+00:00",
       "durationMinutes": 38,
       "skills": [
         "dados"
       ],
-      "score": 38.59591363244748,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.write-first-python-code",
-      "title": "Escrever seu primeiro código de Python",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/write-first-python-code/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-28T23:55:00+00:00",
-      "durationMinutes": 39,
-      "skills": [
-        "programacao"
-      ],
-      "score": 38.48991042910208,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.fabric-prepare-semantic-layer",
-      "title": "Preparar modelos semânticos para IA em Power BI e Microsoft Fabric",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/fabric-prepare-semantic-layer/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-28T22:31:00+00:00",
-      "durationMinutes": 50,
-      "skills": [
-        "dados"
-      ],
-      "score": 38.46489055503214,
+      "score": 38.5577534176581,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1527,25 +1493,24 @@
       "skills": [
         "ia"
       ],
-      "score": 38.455448898543295,
+      "score": 38.48490943284081,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn.wwl.enhance-ai-solutions-azure-managed-redis",
-      "title": "Melhore soluções de IA com Redis Gerenciado do Azure",
+      "id": "mslearn:learn.wwl.write-first-python-code",
+      "title": "Escrever seu primeiro código de Python",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/enhance-ai-solutions-azure-managed-redis/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/write-first-python-code/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-11-04T16:40:00+00:00",
-      "durationMinutes": 222,
+      "published": "2026-10-28T23:55:00+00:00",
+      "durationMinutes": 39,
       "skills": [
-        "estrategia",
-        "dados"
+        "programacao"
       ],
-      "score": 38.32842618121426,
+      "score": 38.46016467085645,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1563,7 +1528,42 @@
         "dados",
         "programacao"
       ],
-      "score": 38.24727794955375,
+      "score": 38.391199031840294,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.fabric-prepare-semantic-layer",
+      "title": "Preparar modelos semânticos para IA em Power BI e Microsoft Fabric",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/fabric-prepare-semantic-layer/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-28T22:31:00+00:00",
+      "durationMinutes": 50,
+      "skills": [
+        "dados"
+      ],
+      "score": 38.38906822455876,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.enhance-ai-solutions-azure-managed-redis",
+      "title": "Melhore soluções de IA com Redis Gerenciado do Azure",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/enhance-ai-solutions-azure-managed-redis/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-04T16:40:00+00:00",
+      "durationMinutes": 222,
+      "skills": [
+        "estrategia",
+        "dados"
+      ],
+      "score": 38.29163972510946,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1580,7 +1580,7 @@
       "skills": [
         "dados"
       ],
-      "score": 38.1931251881356,
+      "score": 38.21711025478021,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1597,7 +1597,7 @@
       "skills": [
         "ia"
       ],
-      "score": 38.0917612458722,
+      "score": 38.01687217660729,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1615,7 +1615,7 @@
         "financas",
         "dados"
       ],
-      "score": 38.025620941872184,
+      "score": 37.91429930867334,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1633,112 +1633,7 @@
         "dados",
         "ia"
       ],
-      "score": 38.01894037654037,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.implement-testing-progressive-exposure-deployment",
-      "title": "Implementar testes A/B e a implantação por exposição progressiva",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/implement-test-progressive-exposure-deployment/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-28T22:41:00+00:00",
-      "durationMinutes": 14,
-      "skills": [
-        "estrategia",
-        "dados"
-      ],
-      "score": 37.88972013371304,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.number-series-trail-codes-dynamics-365-business-central",
-      "title": "Configurar a série de números e os códigos de trilha no Dynamics 365 Business Central",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/number-series-trail-codes-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T21:00:00+00:00",
-      "durationMinutes": 50,
-      "skills": [
-        "estrategia",
-        "dados"
-      ],
-      "score": 37.87010037751975,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.prepare-data-migration-to-dynamics-365-finance-ops",
-      "title": "Preparar dados para migração para aplicativos de finanças e operações",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/prepare-data-migration-finance-operations/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T21:05:00+00:00",
-      "durationMinutes": 84,
-      "skills": [
-        "financas",
-        "dados"
-      ],
-      "score": 37.799206141825074,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-core-data-concepts",
-      "title": "Introdução aos conceitos de dados do Microsoft Azure Data core",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-core-data-concepts/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-11-04T16:30:00+00:00",
-      "durationMinutes": 57,
-      "skills": [
-        "dados"
-      ],
-      "score": 37.7913207284013,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-non-relational-data",
-      "title": "Introdução aos dados não relacionais do Microsoft Azure Data no Azure",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-non-relational-data/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-11-04T16:31:00+00:00",
-      "durationMinutes": 87,
-      "skills": [
-        "dados"
-      ],
-      "score": 37.79086296100023,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-relational-data",
-      "title": "Introdução aos dados relacionais do Microsoft Azure Data no Azure",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-relational-data/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-11-04T16:31:00+00:00",
-      "durationMinutes": 79,
-      "skills": [
-        "dados"
-      ],
-      "score": 37.790783275054025,
+      "score": 37.806654981253686,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1756,7 +1651,112 @@
         "estrategia",
         "dados"
       ],
-      "score": 37.7828514895351,
+      "score": 37.800242761616246,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.number-series-trail-codes-dynamics-365-business-central",
+      "title": "Configurar a série de números e os códigos de trilha no Dynamics 365 Business Central",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/number-series-trail-codes-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-27T21:00:00+00:00",
+      "durationMinutes": 50,
+      "skills": [
+        "estrategia",
+        "dados"
+      ],
+      "score": 37.7376589534228,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.prepare-data-migration-to-dynamics-365-finance-ops",
+      "title": "Preparar dados para migração para aplicativos de finanças e operações",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/prepare-data-migration-finance-operations/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-27T21:05:00+00:00",
+      "durationMinutes": 84,
+      "skills": [
+        "financas",
+        "dados"
+      ],
+      "score": 37.7272604839861,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.implement-testing-progressive-exposure-deployment",
+      "title": "Implementar testes A/B e a implantação por exposição progressiva",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/implement-test-progressive-exposure-deployment/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-28T22:41:00+00:00",
+      "durationMinutes": 14,
+      "skills": [
+        "estrategia",
+        "dados"
+      ],
+      "score": 37.722676428445084,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-core-data-concepts",
+      "title": "Introdução aos conceitos de dados do Microsoft Azure Data core",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-core-data-concepts/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-04T16:30:00+00:00",
+      "durationMinutes": 57,
+      "skills": [
+        "dados"
+      ],
+      "score": 37.7154599829891,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-non-relational-data",
+      "title": "Introdução aos dados não relacionais do Microsoft Azure Data no Azure",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-non-relational-data/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-04T16:31:00+00:00",
+      "durationMinutes": 87,
+      "skills": [
+        "dados"
+      ],
+      "score": 37.67586747758614,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-relational-data",
+      "title": "Introdução aos dados relacionais do Microsoft Azure Data no Azure",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-relational-data/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-04T16:31:00+00:00",
+      "durationMinutes": 79,
+      "skills": [
+        "dados"
+      ],
+      "score": 37.66042046596091,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1774,7 +1774,7 @@
         "financas",
         "dados"
       ],
-      "score": 37.73233202061165,
+      "score": 37.64184676110473,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1792,7 +1792,7 @@
         "dados",
         "programacao"
       ],
-      "score": 37.57267000473509,
+      "score": 37.55251983632259,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1810,43 +1810,7 @@
         "estrategia",
         "financas"
       ],
-      "score": 37.48735798158644,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.implement-azure-sql-database-security",
-      "title": "Implementar a segurança para bancos de dados SQL do Azure",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/implement-azure-sql-database-security/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-11-04T16:44:00+00:00",
-      "durationMinutes": 62,
-      "skills": [
-        "financas",
-        "dados"
-      ],
-      "score": 37.43717266999034,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.implement-ai-security",
-      "title": "Implementar a segurança para IA",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/implement-ai-security/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-11-04T16:44:00+00:00",
-      "durationMinutes": 239,
-      "skills": [
-        "estrategia",
-        "dados"
-      ],
-      "score": 37.43647679831976,
+      "score": 37.441983240621184,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1864,24 +1828,43 @@
         "dados",
         "ia"
       ],
-      "score": 37.325009821725786,
+      "score": 37.42006132989411,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-data-warehouse-analytics",
-      "title": "Introdução à Análise de Dados do Microsoft Azure no Azure",
+      "id": "mslearn:learn.wwl.implement-ai-security",
+      "title": "Implementar a segurança para IA",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/implement-ai-security/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-11-04T16:30:00+00:00",
-      "durationMinutes": 128,
+      "published": "2026-11-04T16:44:00+00:00",
+      "durationMinutes": 239,
       "skills": [
+        "estrategia",
         "dados"
       ],
-      "score": 37.323522948142646,
+      "score": 37.415932906029454,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.implement-azure-sql-database-security",
+      "title": "Implementar a segurança para bancos de dados SQL do Azure",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/implement-azure-sql-database-security/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-11-04T16:44:00+00:00",
+      "durationMinutes": 62,
+      "skills": [
+        "financas",
+        "dados"
+      ],
+      "score": 37.40306299472942,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1899,25 +1882,24 @@
         "estrategia",
         "dados"
       ],
-      "score": 37.26774787454125,
+      "score": 37.39225450287924,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn.wwl.explore-data-governance-microsoft-365",
-      "title": "MS-102 Explorar a governança de dados no Microsoft 365",
+      "id": "mslearn:learn.wwl.azure-data-fundamentals-explore-data-warehouse-analytics",
+      "title": "Introdução à Análise de Dados do Microsoft Azure no Azure",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/explore-data-governance-microsoft-365/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-10-29T16:14:00+00:00",
-      "durationMinutes": 123,
+      "published": "2026-11-04T16:30:00+00:00",
+      "durationMinutes": 128,
       "skills": [
-        "estrategia",
         "dados"
       ],
-      "score": 37.14256173511407,
+      "score": 37.298606460202265,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1935,7 +1917,25 @@
         "estrategia",
         "dados"
       ],
-      "score": 37.1362552659461,
+      "score": 37.27419375956954,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.explore-data-governance-microsoft-365",
+      "title": "MS-102 Explorar a governança de dados no Microsoft 365",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/paths/explore-data-governance-microsoft-365/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-29T16:14:00+00:00",
+      "durationMinutes": 123,
+      "skills": [
+        "estrategia",
+        "dados"
+      ],
+      "score": 37.20854804218895,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -1953,42 +1953,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 37.13271733289059,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.enforce-power-bi-model-security",
-      "title": "Impor a segurança do modelo do Power BI",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/enforce-power-bi-model-security/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-29T01:57:00+00:00",
-      "durationMinutes": 81,
-      "skills": [
-        "dados"
-      ],
-      "score": 37.02803553701657,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.dimensions-dynamics-365-business-central",
-      "title": "Configurar dimensões no Dynamics 365 Business Central",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/dimensions-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T21:07:00+00:00",
-      "durationMinutes": 79,
-      "skills": [
-        "estrategia",
-        "financas"
-      ],
-      "score": 37.00031582491967,
+      "score": 37.13064432486104,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -2005,43 +1970,24 @@
       "skills": [
         "dados"
       ],
-      "score": 36.993967503282136,
+      "score": 37.01343212631182,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn-dynamics.create-fiscal-calendars-years-periods-in-dynamics-365-finance-ops",
-      "title": "Criar calendários, anos e períodos fiscais no Dynamics 365 Finance",
+      "id": "mslearn:learn.wwl.enforce-power-bi-model-security",
+      "title": "Impor a segurança do modelo do Power BI",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/create-fiscal-calendars-years-periods-dyn365-finance/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/enforce-power-bi-model-security/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-10-27T20:57:00+00:00",
-      "durationMinutes": 64,
+      "published": "2026-10-29T01:57:00+00:00",
+      "durationMinutes": 81,
       "skills": [
-        "financas",
         "dados"
       ],
-      "score": 36.966262921273874,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.wwl.build-query-azure-database-postgresql",
-      "title": "Criar e consultar o Banco de Dados do Azure para PostgreSQL",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/build-query-azure-database-postgresql/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-29T00:24:00+00:00",
-      "durationMinutes": 89,
-      "skills": [
-        "dados",
-        "programacao"
-      ],
-      "score": 36.92420570156068,
+      "score": 36.92632583983823,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -2059,24 +2005,61 @@
         "estrategia",
         "ia"
       ],
-      "score": 36.90714530943293,
+      "score": 36.91784961444274,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn.wwl.get-started-kusto-fabric",
-      "title": "Introdução à inteligência em tempo real no Microsoft Fabric",
+      "id": "mslearn:learn.wwl.build-query-azure-database-postgresql",
+      "title": "Criar e consultar o Banco de Dados do Azure para PostgreSQL",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/get-started-kusto-fabric/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/build-query-azure-database-postgresql/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-10-29T00:36:00+00:00",
-      "durationMinutes": 73,
+      "published": "2026-10-29T00:24:00+00:00",
+      "durationMinutes": 89,
       "skills": [
+        "dados",
+        "programacao"
+      ],
+      "score": 36.885932978727254,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.create-fiscal-calendars-years-periods-in-dynamics-365-finance-ops",
+      "title": "Criar calendários, anos e períodos fiscais no Dynamics 365 Finance",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/create-fiscal-calendars-years-periods-dyn365-finance/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-27T20:57:00+00:00",
+      "durationMinutes": 64,
+      "skills": [
+        "financas",
         "dados"
       ],
-      "score": 36.89846576602155,
+      "score": 36.876625639230824,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.dimensions-dynamics-365-business-central",
+      "title": "Configurar dimensões no Dynamics 365 Business Central",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/dimensions-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-27T21:07:00+00:00",
+      "durationMinutes": 79,
+      "skills": [
+        "estrategia",
+        "financas"
+      ],
+      "score": 36.81725887584549,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -2094,7 +2077,41 @@
         "estrategia",
         "dados"
       ],
-      "score": 36.842136498023045,
+      "score": 36.794881084384606,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.wwl.get-started-kusto-fabric",
+      "title": "Introdução à inteligência em tempo real no Microsoft Fabric",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/get-started-kusto-fabric/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-29T00:36:00+00:00",
+      "durationMinutes": 73,
+      "skills": [
+        "dados"
+      ],
+      "score": 36.75271088891901,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn.github.introduction-to-github-copilot-for-business",
+      "title": "Introdução ao GitHub Copilot Business",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/introduction-to-github-copilot-for-business/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-28T22:40:00+00:00",
+      "durationMinutes": 23,
+      "skills": [
+        "estrategia"
+      ],
+      "score": 36.73667730715513,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -2112,42 +2129,7 @@
         "estrategia",
         "dados"
       ],
-      "score": 36.83281385456325,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn-dynamics.search-filter-sort-data-dynamics-365-business-central",
-      "title": "Pesquisar, filtrar, classificar e selecionar dados no Business Central",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/search-filter-sort-data-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-27T21:23:00+00:00",
-      "durationMinutes": 41,
-      "skills": [
-        "estrategia",
-        "dados"
-      ],
-      "score": 36.811973076992814,
-      "verification": "official_catalog_metadata_not_licensed_for_embedding"
-    },
-    {
-      "id": "mslearn:learn.github.introduction-to-github-copilot-for-business",
-      "title": "Introdução ao GitHub Copilot Business",
-      "provider": "Microsoft Learn",
-      "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/introduction-to-github-copilot-for-business/?WT.mc_id=api_CatalogApi",
-      "embedUrl": null,
-      "playback": "external_only_no_embeddable_player_verified",
-      "languageHint": "pt-br",
-      "published": "2026-10-28T22:40:00+00:00",
-      "durationMinutes": 23,
-      "skills": [
-        "estrategia"
-      ],
-      "score": 36.77111234175037,
+      "score": 36.71851382600428,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
@@ -2165,24 +2147,42 @@
         "estrategia",
         "dados"
       ],
-      "score": 36.72220460907623,
+      "score": 36.69857675532778,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
-      "id": "mslearn:learn-bizapps.pad-scripting",
-      "title": "Scripts no Power Automate para desktop",
+      "id": "mslearn:learn.wwl.get-started-data-analytics",
+      "title": "Introdução às análises de dados",
       "provider": "Microsoft Learn",
       "sourceType": "microsoft_learn_catalog_api",
-      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/pad-scripting/?WT.mc_id=api_CatalogApi",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/get-started-data-analytics/?WT.mc_id=api_CatalogApi",
       "embedUrl": null,
       "playback": "external_only_no_embeddable_player_verified",
       "languageHint": "pt-br",
-      "published": "2026-10-27T21:27:00+00:00",
-      "durationMinutes": 33,
+      "published": "2026-10-29T00:56:00+00:00",
+      "durationMinutes": 36,
       "skills": [
-        "programacao"
+        "dados"
       ],
-      "score": 36.68884736662869,
+      "score": 36.682735086487135,
+      "verification": "official_catalog_metadata_not_licensed_for_embedding"
+    },
+    {
+      "id": "mslearn:learn-dynamics.search-filter-sort-data-dynamics-365-business-central",
+      "title": "Pesquisar, filtrar, classificar e selecionar dados no Business Central",
+      "provider": "Microsoft Learn",
+      "sourceType": "microsoft_learn_catalog_api",
+      "sourceUrl": "https://learn.microsoft.com/pt-br/training/modules/search-filter-sort-data-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+      "embedUrl": null,
+      "playback": "external_only_no_embeddable_player_verified",
+      "languageHint": "pt-br",
+      "published": "2026-10-27T21:23:00+00:00",
+      "durationMinutes": 41,
+      "skills": [
+        "estrategia",
+        "dados"
+      ],
+      "score": 36.66781698869064,
       "verification": "official_catalog_metadata_not_licensed_for_embedding"
     },
     {
